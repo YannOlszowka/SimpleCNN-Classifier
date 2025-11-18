@@ -1,4 +1,12 @@
 # SimpleCNN-Classifier
-Objectif
+Objectif : classification d’images avec CNN simple
 
-Construire un modèle CNN simple pour classer des images (3–10 classes), facilement adaptable à n’importe quel dataset, avec démonstration de résultats, visualisations et export de modèle. Idéal pour portfolio GitHub et missions Upwork.
+Dataset : CIFAR-10 (exemple), adaptable
+
+Model : 3 couches convolutives + fully connected
+
+Training : Adam, CrossEntropy, 10 epochs
+
+Usage : make env, make train, make infer
+
+Bonus : ajouter FastAPI + Grad-CAM pour montrer les activations
