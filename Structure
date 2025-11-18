@@ -1,0 +1,17 @@
+SimpleCNN-Classifier/
+├── README.md
+├── environment.yml
+├── requirements.txt
+├── data/
+│   └── README.md
+├── notebooks/
+│   └── classification_demo.ipynb
+├── src/
+│   ├── model.py
+│   ├── train.py
+│   ├── infer.py
+│   └── utils.py
+├── outputs/
+│   ├── checkpoints/
+│   └── figures/
+└── Makefile
